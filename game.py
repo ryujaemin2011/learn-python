@@ -11,7 +11,7 @@ while True: #무한반복
         continue #4번줄로 돌아가기
     if int(c) == a + b: #정답일때
         end = time.time() #시간 측정 종료
-        print("걸린시간 : " + str(end - start)) #걸린시간 알려줌
+        print("걸린시간 : " + str(round(end - start, 2))) #걸린시간 알려줌
         print("정답") #'정답' 출력
         count += 1 #카운트 +1
     else: #틀렸을때
