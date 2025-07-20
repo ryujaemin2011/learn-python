@@ -18,4 +18,4 @@ y = [11,14,12,9,15,17]
 plt.plot(x,y)
 
 #표시
-plt.show
+plt.show()
